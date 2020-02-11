@@ -1,5 +1,5 @@
  AOS.init({
- 	duration: 1500,
+ 	duration: 800,
  	easing: 'slide'
  });
 
@@ -110,9 +110,6 @@
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
 	});
-
-
-
 
 	// scroll
 	var scrollWindow = function() {
